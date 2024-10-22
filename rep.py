@@ -5,9 +5,7 @@ VOGAIS = 'aeiou'
 for letra in texto:
     if letra in VOGAIS:
         vogais += 1
-
-print('A palavra possui {vogais} vogais')
-
+        
 print("As vogais encontradas são: ", end='')
 for letra in texto:
     if letra in VOGAIS:
