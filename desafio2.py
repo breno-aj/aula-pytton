@@ -1,22 +1,3 @@
-'''
-produtos = {'bicicleta';1000,'carro':500; }
-produto = produtos
-compra = float(input('Digite o intem que deseja: '))
-'''
-'''
-Receba o valor do saque e compare com o saldo da conta bancária
-
-saldo_inicial = 1000
-saldo = saldo_inicial
-saque = float(input('Digite o valor do saque: '))
-if saque <= saldo_inicial:
-    print('Saque realizado com sucesso!')
-    saldo = saldo_inicial - saque
-else:
-    print('Saldo insuficiente!')
-
-print(f'Saldo atual: {saldo}')
-'''
 # Inicializa uma lista vazia para a lista de compras
 lista_de_compras = []
 
